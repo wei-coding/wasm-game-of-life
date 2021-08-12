@@ -14,3 +14,16 @@ cargo install cargo-generate
 ```
 npm install npm@latest -g
 ```
+5. 接上網頁: 在根目錄下指令:
+```
+npm init wasm-app www
+```
+取得`create-wasm-app`作為版模
+
+## 編譯&執行
+
+在根目錄下指令:
+```
+wasm-pack build
+```
+以生成`.wasm`、`.ts`、`.js`三檔案
